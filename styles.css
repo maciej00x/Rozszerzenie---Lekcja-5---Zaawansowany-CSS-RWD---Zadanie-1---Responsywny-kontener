@@ -1,0 +1,51 @@
+/*
+mobile: 320px - 768px
+tablet: 769px - 1024px
+small-desktop / laptop: 1025px - 1440px
+desktop: 1441 + 
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  background-color: lightslategray;
+  color: goldenrod;
+}
+
+.container {
+  width: 94%;
+}
+
+.header-style {
+  font-size: 34px;
+  font-weight: 600;
+  text-align: center;
+  color: pink;
+}
+
+/* mobile */
+
+@media (min-width: 360px) and (max-width: 767px) {
+  .container {
+    width: 96%;
+  }
+}
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .container {
+    width: 720px;
+  }
+}
+
+/*laptop */
+
+@media (min-width: 1024px) {
+  .container {
+    width: 996px;
+  }
+}
