@@ -17,6 +17,7 @@ body {
 
 .container {
   width: 94%;
+  margin: 0 auto;
 }
 
 .header-style {
@@ -28,7 +29,7 @@ body {
 
 /* mobile */
 
-@media (min-width: 360px) and (max-width: 767px) {
+@media (min-width: 360px) {
   .container {
     width: 96%;
   }
@@ -36,7 +37,7 @@ body {
 
 /* tablet */
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) {
   .container {
     width: 720px;
   }
